@@ -12,7 +12,7 @@ const App = (props) => {
 
   const addNote = (event) => {
     event.preventDefault()
-    console.log("Button was molested", event.target)
+    console.log("Button was pushed", event.target)
     const noteObject = {
       content: newNote,
       important: Math.random() > 0.5,
