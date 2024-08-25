@@ -1,5 +1,7 @@
 # BrinellCTF
 
+## Infra
+
 ```mermaid
 flowchart LR
 api[Init containers & <br> Generate challenges <br> Fast API <br> also serverside]
@@ -80,3 +82,28 @@ It is possible to have both static and dynamic challenges. The higher point chal
 This could also be applied, modifying ssh boxes, putting some files in them and having them be challenge boxes activated on demand. 
 
 A challenge could constitute a zip file, an image with metadata, another page in the site with hidden info, etc. 
+
+
+## Sitemap 
+```mermaid
+graph TD
+    A[brinellctf.com] --> B[about-us]
+    A --> C[contact-us]
+    A --> D[faq]
+    A --> E[challenges]
+    A --> F[resources]
+    A --> G[your-account]
+    A --> H[meet-the-team]
+    A --> I[cookies]
+    A --> J[404-error]
+    
+    E --> K[web-challenges]
+    E --> L[general-skills]
+
+    F --> M[blog]
+    F --> N[tutorials]
+    
+    G --> O[sign-in]
+    G --> P[register]
+
+```
