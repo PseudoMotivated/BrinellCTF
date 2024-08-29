@@ -4,6 +4,7 @@
   --ghost-white: #e8e9f3;
   --silver: #cecece;
   --liver: #654236;
+  --footer: #957060;
 }
 
 * {
@@ -31,6 +32,14 @@ header {
   box-shadow: 0 0 5px rgba(00, 00, 00, 0.75);
 }
 
+footer {
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--footer);
+}
 header > nav {
   display: flex;
   justify-content: space-evenly;
@@ -66,8 +75,4 @@ a:hover {
 
 .loginButton:hover {
   box-shadow: inset 1px 2px 2px rgba(00, 00, 00, 0.75);
-}
-
-footer {
-  background-color: var(--liver);
 }
