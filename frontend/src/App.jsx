@@ -15,6 +15,7 @@ function App() {
     <div>
       <Header className='hooder'/>
 <ChallengeEntry challenge={challenge} className="challenge"/>
+      <Header></Header>
       <Footer></Footer>
     </div>
   );
