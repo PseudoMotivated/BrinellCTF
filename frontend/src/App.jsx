@@ -1,20 +1,20 @@
+import ChallengeEntry from "./components/ChallengeEntry";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+
+const challenge = {
+  name: 'defeat the gay',
+  category: 'web',
+  description: 'seek and destory',
+  points: 69,
+  hints: ['bbb']
+}
 
 function App() {
   return (
     <div>
-      <Header></Header>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Header className='hooder'/>
+<ChallengeEntry challenge={challenge} className="challenge"/>
       <Footer></Footer>
     </div>
   );

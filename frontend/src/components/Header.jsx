@@ -2,6 +2,7 @@ import Login from "./loginButton";
 
 function Header() {
   return (
+    <div>
     <header>
       <h1>BrinellCTF</h1>
       <nav>
@@ -12,6 +13,7 @@ function Header() {
       </nav>
       <Login></Login>
     </header>
+    </div>
   );
 }
 
