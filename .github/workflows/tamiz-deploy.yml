@@ -15,5 +15,10 @@ jobs:
 
             - name: deploy
               run: | 
-                ls /home/actions
+                rm -r /home/actions/BrinellCTF
+                mkdir /home/actions/BrinellCTF
+                cd /home/actions/
+                git clone 'https://github.com/PseudoMotivated/BrinellCTF/'
+                cd BrinellCTF/frontend 
+                ls
                 
