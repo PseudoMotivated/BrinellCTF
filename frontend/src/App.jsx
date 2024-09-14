@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 const challenge = {
-  name: "defeat the goblin",
+  name: "12345678asdfghj",
   category: "web",
   description: "seek and destory",
   points: 69,
