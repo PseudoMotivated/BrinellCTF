@@ -84,12 +84,11 @@ header > h1 {
 }
 
 .challenge {
-  border: 0.3em solid beige;
+  border: 0.3em solid var(--indigo-dye);
   border-radius: 1.5em;
   padding: 1em;
   margin: auto;
   max-width: 20em;
-  list-style-type: none;
 }
 
 .hooder {
