@@ -13,9 +13,9 @@ const challenge = {
 function App() {
   return (
     <div>
-      <Header className='hooder'/>
-<ChallengeEntry challenge={challenge} className="challenge"/>
-      <Footer></Footer>
+      <Header />
+      <ChallengeEntry challenge={challenge} className="challenge" />
+      <Footer />
     </div>
   );
 }

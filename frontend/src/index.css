@@ -88,8 +88,5 @@ a:hover {
   padding: 1em;
   margin: auto;
   max-width: 20em;
-}
-
-.hooder {
-  margin-bottom: 3em;
+  list-style-type: none;
 }

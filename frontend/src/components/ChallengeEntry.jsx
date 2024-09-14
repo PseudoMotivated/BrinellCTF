@@ -16,9 +16,9 @@ const ChallengeEntry = ({ challenge }) => {
       </button>
       
       {showHints && (
-        <div style={{ marginTop: '2em' }}>
+        <div style={{ marginTop: '1em'}}>
           <h4>Hints:</h4>
-          <ul>
+          <ul style={{listStyleType: 'none'}}>
             {challenge.hints.map((hint, index) => (
               <li key={index}>{hint}</li>
             ))}
