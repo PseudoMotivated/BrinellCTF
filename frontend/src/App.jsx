@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 const challenge = {
-  name: "12345678asdfghj",
+  name: "bobobobg",
   category: "web",
   description: "seek and destory",
   points: 69,
