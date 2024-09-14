@@ -15,4 +15,5 @@ jobs:
 
             - name: deploy
               run: | 
-                ls
+                ls /home/actions
+                
