@@ -20,5 +20,6 @@ jobs:
                 cd /home/actions/
                 git clone 'https://github.com/PseudoMotivated/BrinellCTF/'
                 cd BrinellCTF/frontend 
+                npm install
                 ls
                 
