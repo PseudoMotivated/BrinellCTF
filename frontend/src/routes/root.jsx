@@ -1,13 +1,13 @@
-import ChallengeEntry from "./components/ChallengeEntry";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import ChallengeEntry from "../components/ChallengeEntry";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const challenge = {
   name: "bobobobg",
   category: "web",
   description: "seek and destory",
   points: 1370,
-  hints: ["bbb"],
+  hints: ["bbb"]
 };
 
 function Root() {
