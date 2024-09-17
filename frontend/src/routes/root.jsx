@@ -6,7 +6,7 @@ const challenge = {
   name: "bobobobg",
   category: "web",
   description: "seek and destory",
-  points: 69,
+  points: 1370,
   hints: ["bbb"],
 };
 
